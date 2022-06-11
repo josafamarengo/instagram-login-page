@@ -96,6 +96,7 @@ body {
 }
 
 .profile-photo img {
+    width: 6rem;
     height: 6rem;
 }
 
