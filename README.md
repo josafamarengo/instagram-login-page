@@ -10,11 +10,11 @@
 
 Para fazer o efeito da troca de imagens, inseri o código abaixo:
 
-```
+```javascript
 let time = 4500,
     currentImageIndex = 0,
     images = document
-                .querySelectorAll("#slider img")
+         .querySelectorAll("#slider img")
     max = images.length;
 
 function nextImage() {
